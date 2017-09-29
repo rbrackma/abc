@@ -6,7 +6,7 @@ modified:
 excerpt:
 tags: []
 image:
-  feature: brackmann-particuliers-1920x850.jpg
+  feature: brackmann-particuliers-1920x850.webp
   backgroundcolor: white
   teaser:
 ---
