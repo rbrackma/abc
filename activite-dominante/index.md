@@ -5,7 +5,7 @@ modified:
 excerpt:
 tags: [specialit&eacute; 'droit social' r&eacute;gion PACA Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes]
 image:
-  feature: brackmann-competences-1920x850.jpeg
+  feature: brackmann-competences-1920x850.webp
 ---
 
 Le Cabinet a pour activit&eacute; dominante le droit social, incluant les relations individuelles et collectives du travail ainsi que le droit de la s&eacute;curit&eacute; sociale.
