@@ -6,7 +6,7 @@ modified:
 excerpt:
 tags: []
 image:
-  feature: honoraires-400x250.webp
+  feature: honoraires-400x250.jpeg
   backgroundcolor: white
   teaser:
 ---
