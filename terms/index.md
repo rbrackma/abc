@@ -18,8 +18,8 @@ toc: true
 
 ```
 Nathalie Brackmann Avocat
-78 av. Pierre Sémard
-06130 Grasse
+35 Boulevard Carnot
+06400 Cannes
 France
 Tél. 00 33 7 63 50 14 88
 avocat@brackmann.fr

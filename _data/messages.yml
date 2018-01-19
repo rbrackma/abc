@@ -6,7 +6,7 @@ locales:
   # -------------------
   en: &DEFAULT_EN
     overview: "Overview"
-    toc: "Lawyer in Grasse - Cote d'Azur"
+    toc: "Lawyer in Cannes - Cote d'Azur"
     written_by: "Written by"
     updated: "Updated"
     share: "Share on"
@@ -20,7 +20,7 @@ locales:
   de: &DEFAULT_DE
     <<: *DEFAULT_EN     # load English values as default
     overview: "&Uuml;bersicht"
-    toc: "Anwalt in Grasse - Frankreich"
+    toc: "Anwalt in Cannes - Frankreich"
     written_by: "Verfasst von"
     updated: "Zuletzt aktualisiert:"
     share: ""
@@ -32,4 +32,4 @@ locales:
   fr_FR:
     <<: *DEFAULT_EN      # load English values as default
     overview: "Sommaire"
-    toc: "Avocat au barreau de Grasse"
+    toc: "Avocat &agrave; Cannes"

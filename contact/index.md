@@ -27,15 +27,15 @@ Vous serez recontact&eacute; dans la journ&eacute;e.
     		<address>
           <strong>Me Nathalie Brackmann</strong><br>
           <strong>Cabinet d'Avocats</strong><br>
-    			78 Avenue Pierre Semard<br>
-    			06130 Grasse<br>
+    			35 Boulevard Carnot<br>
+    			06400 Cannes<br>
     			France<br>
 			    T&eacute;l. : <a href="tel:+33763501488">07 63 50 14 88</a><br>
                             E-mail : <a href="mailto:avocat@brackmann.fr">avocat@brackmann.fr</a>
     		</address>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23092.798032394214!2d6.929862!3d43.656495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa85eedccf5fedc34!2sNathalie+BRACKMANN+Avocat!5e0!3m2!1sen!2sfr!4v1466261217255" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.3490263586473!2d7.014454515198557!3d43.55760987912465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ce81f2bebfe0e9%3A0x8932378df750315e!2s35+Boulevard+Carnot%2C+06400+Cannes!5e0!3m2!1sen!2sfr!4v1516395753764" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     	</div>
-	
-	Le Cabinet est situ&eacute; en face du Palais de justice et &agrave; seulement 10 mn &agrave; pied de la gare SNCF.<br><br>
-	Plusieurs parkings sont &agrave; proximit&eacute; du Cabinet (parking Roure, parking de la gare SNCF, etc.).<br><br>
+
+	Le Cabinet est situ&eacute; boulevard Carnot, &agrave; c&ocirc;t&eacute; du Conseil de prud'hommes de Cannes.<br><br>
+	Plusieurs parkings sont &agrave; proximit&eacute; du Cabinet (Mozart, Vauban ou Saint-Nicolas).<br><br>
 </div>

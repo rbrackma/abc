@@ -19,13 +19,11 @@ share: false
 <br>
 <h1>Le Cabinet</h1>
 
-Situ&eacute; en face du Palais de justice de Grasse, le Cabinet a pour activit&eacute; dominante le droit social incluant le **droit du travail** et le droit de la **s&eacute;curit&eacute; sociale**.
-
-Il intervient &eacute;galement dans d'autres domaines tels que le **droit civil g&eacute;n&eacute;ral**.
+Situ&eacute; boulevard Carnot, &agrave; c&ocirc;t&eacute; du Conseil de prud'hommes de Cannes, le Cabinet a pour activit&eacute; dominante le droit social incluant le **droit du travail** et le droit de la **s&eacute;curit&eacute; sociale**.
 
 Le Cabinet conseille, assiste ou repr&eacute;sente les **entreprises** et les **particuliers** devant les juridictions de **premi&egrave;re instance** et d&rsquo;**appel** sur tout le **territoire national**.
 
-Il intervient en particulier devant les Conseils de prud&rsquo;hommes de Grasse, de Cannes ou de Nice, le Tribunal de grande instance de Grasse et la Cour d&rsquo;appel d&rsquo;Aix-en-Provence.
+Il intervient en particulier devant les Conseils de prud&rsquo;hommes de Cannes, de Grasse ou de Nice, le Tribunal de grande instance de Grasse et la Cour d&rsquo;appel d&rsquo;Aix-en-Provence.
 
 Apr&egrave;s de nombreuses ann&eacute;es de pratique du droit social au sein du barreau de Paris, dans des cabinets d&rsquo;affaires fran&ccedil;ais et anglo-saxons de premier plan, puis au sein d&rsquo;un groupe international du secteur de la restauration, Nathalie Brackmann a acquis une solide exp&eacute;rience du **conseil aux entreprises**.
 
