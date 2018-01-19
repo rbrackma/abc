@@ -4,7 +4,7 @@ title: "Honoraires"
 date: 2014-05-30T11:40:45-04:00
 modified:
 excerpt:
-tags: []
+tags: [Avocat a Cannes honoraires Nathalie Brackmann droit travail droit social PACA Cote d'Azur]
 image:
   feature: honoraires-400x250.webp
   backgroundcolor: white

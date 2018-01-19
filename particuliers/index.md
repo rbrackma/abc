@@ -1,10 +1,10 @@
 ---
 layout: tab
 title: "Intervention du Cabinet aupr&egrave;s des particuliers"
-date: 2014-05-30T11:40:45-04:00
+date: 2018-01-18T11:40:45-04:00
 modified:
 excerpt:
-tags: []
+tags: [Avocat a Cannes pour particuliers au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
 image:
   feature: brackmann-particuliers-1920x850.webp
   backgroundcolor: white

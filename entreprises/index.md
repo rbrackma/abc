@@ -1,8 +1,8 @@
 ---
 layout: tab
 title: "Intervention du Cabinet aupr&egrave;s des entreprises"
-date: 2016-05-01T09:44:20-04:00
-modified: 2016-05-01T14:56:44-04:00
+date: 2018-01-18T09:44:20-04:00
+tags: [Avocat a Cannes pour entreprises au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
 excerpt:
 image:
   feature: brackmann-entreprises-1920x850.webp

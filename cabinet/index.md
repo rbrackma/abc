@@ -1,10 +1,9 @@
 ---
 layout: tab
-title: ""
-date: 2014-06-25T13:57:25-04:00
-modified: 2016-05-01
+title: "Le cabinet"
+date: 2018-01-18T13:57:25-04:00
 excerpt:
-tags: []
+tags: [Avocat a Cannes au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
 image:
   feature: brackmann-1920x850.webp
   backgroundcolor: black
