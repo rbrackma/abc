@@ -15,9 +15,6 @@ share: false
 
 {% include toc.html %}
 
-<br>
-<h1>Le Cabinet</h1>
-
 Situ&eacute; boulevard Carnot, &agrave; c&ocirc;t&eacute; du Conseil de prud'hommes de Cannes, le Cabinet a pour activit&eacute; dominante le droit social incluant le **droit du travail** et le droit de la **s&eacute;curit&eacute; sociale**.
 
 Le Cabinet conseille, assiste ou repr&eacute;sente les **entreprises** et les **particuliers** devant les juridictions de **premi&egrave;re instance** et d&rsquo;**appel** sur tout le **territoire national**.
