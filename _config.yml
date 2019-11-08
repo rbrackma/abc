@@ -25,7 +25,7 @@ gems:
   - jekyll-gist
 
 # Google services
-google_analytics: UA—78738196-1
+google_analytics: UA-151907051-1
 
 # Default extensions
 post_ext: md
