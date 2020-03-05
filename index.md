@@ -2,7 +2,7 @@
 layout: home
 tags: [Avocat a Cannes au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
 permalink: /
-image:
+image: 
   feature: brackmann-homepage-1920x350d.webp
 ---
 
