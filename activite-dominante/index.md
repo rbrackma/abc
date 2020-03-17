@@ -3,7 +3,7 @@ layout: tab
 title: "Activit&eacute; dominante"
 modified:
 excerpt:
-tags: [specialit&eacute; 'droit social' r&eacute;gion PACA Cannes Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice]
+tags: [specialit&eacute; 'droit social' 'r&eacute;gion PACA' 'chomage partiel' Cannes Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice]
 image:
   feature: brackmann-competences-1920x850.webp
 ---
