@@ -13,7 +13,7 @@ share: false
 ads: false
 ---
 
-N'h&eacute;sitez pas &agrave; nous &eacute;crire (**<a href="mailto:avocat@brackmann.fr">avocat@brackmann.fr</a>**) ou &agrave; nous appeler (**<a href="tel:+33763501488">07 63 50 14 88</a>**) pour :
+N'h&eacute;sitez pas &agrave; nous appeler (**<a href="tel:+33763501488">07 63 50 14 88</a>**) pour :
 
 - convenir d'un rendez-vous,
 - vous renseigner sur les honoraires du Cabinet,
