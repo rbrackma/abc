@@ -41,7 +41,7 @@ image:
 <p>Situ&eacute; boulevard Carnot, &agrave; c&ocirc;t&eacute; du Conseil de prud'hommes de Cannes, le Cabinet a pour activit&eacute; dominante le <strong>droit du travail </strong>et le droit de la <strong>s&eacute;curit&eacute; sociale</strong>.</p>
 <p>Le Cabinet conseille, assiste ou repr&eacute;sente les <strong>entreprises</strong> et les <strong>particuliers</strong> devant les juridictions de <strong>premi&egrave;re instance</strong> et d&rsquo;<strong>appel, </strong>sur tout le<strong> territoire national</strong>.</p>
 <p>En particulier, Nathalie Brackmann a une solide exp&eacute;rience du<strong> conseil aux entreprises </strong>en raison de sa pratique du droit social durant de nombreuses ann&eacute;es au sein du barreau de Paris, dans des cabinets d&rsquo;affaires de premier plan.</p>
-<p>Sa pratique courante de l'<strong>anglais </strong>et l'<strong>espagnol</strong> lui permet d'offrir un service privil&eacute;gi&eacute; aux soci&eacute;t&eacute;s &eacute;trang&egrave;res pr&eacute;sentes en France, aux filiales fran&ccedil;aises de groupes internationaux ainsi qu'aux particuliers &eacute;trangers d&eacute;sirant &eacute;changer dans une de ces deux langues.</p>
+<p>Sa pratique courante de l'<strong>anglais</strong> et l'<strong>espagnol</strong> lui permet d'offrir un service privil&eacute;gi&eacute; aux soci&eacute;t&eacute;s &eacute;trang&egrave;res pr&eacute;sentes en France, aux filiales fran&ccedil;aises de groupes internationaux ainsi qu'aux particuliers &eacute;trangers d&eacute;sirant &eacute;changer dans une de ces deux langues.</p>
 
 
 <div class="tile">
