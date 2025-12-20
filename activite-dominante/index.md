@@ -3,7 +3,7 @@ layout: tab
 title: "Activit&eacute; dominante"
 modified:
 excerpt:
-tags: [specialit&eacute; 'droit social' 'r&eacute;gion PACA' 'chomage partiel' Cannes Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice]
+tags: [specialit&eacute; 'droit social' 'r&eacute;gion PACA' Valbonne Cannes Grasse Antibes Mougins Biot Vallauris Sophia Antipolis Nice]
 image:
   feature: brackmann-competences-1920x850.webp
 ---
@@ -22,11 +22,10 @@ Les principaux domaines d&rsquo;intervention du Cabinet :
 - Autres modes de rupture du contrat de travail (d&eacute;mission, r&eacute;siliation judiciaire, prise d'acte)
 - Requalification de CDD en CDI
 - Transactions
-- Gestion des institutions repr&eacute;sentatives du personnel (DP, CE, CHSCT)
+- Gestion des institutions repr&eacute;sentatives du personnel (DP, CSE, etc.)
 - Elections professionnelles
 - R&egrave;glement int&eacute;rieur
 - Accords collectifs
-- Epargne salariale (int&eacute;ressement, participation, etc.)
 - Contr&ocirc;le URSSAF
 - Harc&egrave;lement (moral, sexuel)
 - Discrimination (syndicale, en raison de l'&eacute;tat de sant&eacute;, etc.) 

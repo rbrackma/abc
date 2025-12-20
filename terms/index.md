@@ -17,11 +17,11 @@ toc: true
 
 ```
 Nathalie Brackmann Avocat
-35 Boulevard Carnot
-06400 Cannes
+473 route des Dolines
+06560 VALBONNE
 France
-Tél. 00 33 7 63 50 14 88
-avocat@brackmann.fr
+T&eacute;l. 00 33 7 63 50 14 88
+contact@brackmann.fr
 Siren : 502 664 394
 ```
 

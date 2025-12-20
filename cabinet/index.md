@@ -3,10 +3,10 @@ layout: tab
 title: "Le cabinet"
 date: 2018-01-18T13:57:25-04:00
 excerpt:
-tags: [Avocat a Cannes au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
+tags: [Avocat a Valbonne au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
 image:
-  feature: brackmann-1920x850.webp
-  backgroundcolor: black
+  feature: brackmann-portait-50kb.webp
+  backgroundcolor: white
   teaser: 
   thumb:
 share: false
@@ -15,11 +15,11 @@ share: false
 
 {% include toc.html %}
 
-Situ&eacute; boulevard Carnot, &agrave; c&ocirc;t&eacute; du Conseil de prud'hommes de Cannes, le Cabinet a pour activit&eacute; dominante le droit social incluant le **droit du travail** et le droit de la **s&eacute;curit&eacute; sociale**.
+Situ&eacute; &agrave; Sophia Antipolis, le Cabinet a pour activit&eacute; dominante le droit social incluant le **droit du travail** et le droit de la **s&eacute;curit&eacute; sociale**.
 
 Le Cabinet conseille, assiste ou repr&eacute;sente les **entreprises** et les **particuliers** devant les juridictions de **premi&egrave;re instance** et d&rsquo;**appel** sur tout le **territoire national**.
 
-Il intervient en particulier devant les Conseils de prud&rsquo;hommes de Cannes, de Grasse ou de Nice, le Tribunal de grande instance de Grasse et la Cour d&rsquo;appel d&rsquo;Aix-en-Provence.
+Il intervient en particulier devant les Conseils de prud&rsquo;hommes de Grasse, de Cannes ou de Nice, le Tribunal judiciaire de Grasse et de Nice et la Cour d&rsquo;appel d&rsquo;Aix-en-Provence.
 
 Apr&egrave;s de nombreuses ann&eacute;es de pratique du droit social au sein du barreau de Paris, dans des cabinets d&rsquo;affaires fran&ccedil;ais et anglo-saxons de premier plan, puis au sein d&rsquo;un groupe international du secteur de la restauration, Nathalie Brackmann a acquis une solide exp&eacute;rience du **conseil aux entreprises**.
 

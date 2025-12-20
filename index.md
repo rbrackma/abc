@@ -1,6 +1,6 @@
 ---
 layout: home
-tags: [Avocat Cannes au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris  Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer 'chômage partiel']
+tags: [Avocat a Valbonne au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
 permalink: /
 image: 
   feature: brackmann-homepage-1920x350d.webp
@@ -38,7 +38,10 @@ image:
 
 </style>
 
-<p>Situ&eacute; boulevard Carnot, &agrave; c&ocirc;t&eacute; du Conseil de prud'hommes de Cannes, le Cabinet a pour activit&eacute; dominante le <strong>droit du travail </strong>et le droit de la <strong>s&eacute;curit&eacute; sociale</strong>.</p>
+
+
+
+<p>Situ&eacute; &agrave; Sophia Antipolis, le Cabinet a pour activit&eacute; dominante le droit social incluant le <strong>droit du travail</strong> et le droit de la <strong>s&eacute;curit&eacute; sociale</strong>.</p>
 <p>Le Cabinet conseille, assiste ou repr&eacute;sente les <strong>entreprises</strong> et les <strong>particuliers</strong> devant les juridictions de <strong>premi&egrave;re instance</strong> et d&rsquo;<strong>appel, </strong>sur tout le<strong> territoire national</strong>.</p>
 <p>En particulier, Nathalie Brackmann a une solide exp&eacute;rience du<strong> conseil aux entreprises </strong>en raison de sa pratique du droit social durant de nombreuses ann&eacute;es au sein du barreau de Paris, dans des cabinets d&rsquo;affaires de premier plan.</p>
 <p>Sa pratique courante de l'<strong>anglais</strong> et l'<strong>espagnol</strong> lui permet d'offrir un service privil&eacute;gi&eacute; aux soci&eacute;t&eacute;s &eacute;trang&egrave;res pr&eacute;sentes en France, aux filiales fran&ccedil;aises de groupes internationaux ainsi qu'aux particuliers &eacute;trangers d&eacute;sirant &eacute;changer dans une de ces deux langues.</p>
@@ -49,14 +52,13 @@ image:
     		<address>
     		<br>
           <strong>Me Nathalie Brackmann</strong><br>
-          <strong>Cabinet d'Avocats</strong><br>
-    			35 Boulevard Carnot<br>
-    			06400 Cannes<br>
-    			France<br>
+          Villa 11 - Villantipolis<br>
+    			473 route des Dolines<br>
+    			06560 VALBONNE<br>
 			    T&eacute;l. : <a href="tel:+33763501488">07 63 50 14 88</a><br>
     		</address>
                 <div class="google-maps">
-		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.3490263586473!2d7.014454515198557!3d43.55760987912465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ce81f2bebfe0e9%3A0x8932378df750315e!2s35+Boulevard+Carnot%2C+06400+Cannes!5e0!3m2!1sen!2sfr!4v1516395753764" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d722.0584687577635!2d7.037069269613161!3d43.62249099819396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDM3JzIxLjAiTiA3wrAwMicxNS44IkU!5e0!3m2!1sfr!2sfr!4v1766269836926!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     	        </div>
     	</div>
 
