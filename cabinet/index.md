@@ -3,7 +3,7 @@ layout: tab
 title: "Le cabinet"
 date: 2018-01-18T13:57:25-04:00
 excerpt:
-tags: [Avocat a Valbonne au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
+tags: [Avocat a Sophia Antipolis au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
 image:
   feature: brackmann-portait-50kb.webp
   backgroundcolor: white
@@ -19,12 +19,12 @@ Situ&eacute; &agrave; **Sophia Antipolis**, le Cabinet a pour activit&eacute; do
 
 Le Cabinet conseille, assiste ou repr&eacute;sente les **entreprises** et les **particuliers** devant les juridictions de **premi&egrave;re instance** et d&rsquo;**appel** sur tout le **territoire national**.
 
-Il intervient en particulier devant les Conseils de prud&rsquo;hommes de Grasse, de Cannes ou de Nice, le Tribunal judiciaire de Grasse et de Nice et la Cour d&rsquo;appel d&rsquo;Aix-en-Provence.
+Il intervient en particulier devant les Conseils de prud&rsquo;hommes de Grasse, de Cannes ou de Nice, le Tribunal judiciaire de Grasse ou de Nice et la Cour d&rsquo;appel d&rsquo;Aix-en-Provence.
 
-Apr&egrave;s de nombreuses ann&eacute;es de pratique du droit social au sein du barreau de Paris, dans des cabinets d&rsquo;affaires fran&ccedil;ais et anglo-saxons de premier plan, puis au sein d&rsquo;un groupe international du secteur de la restauration, Nathalie Brackmann a acquis une solide exp&eacute;rience du **conseil aux entreprises**.
+Apr&egrave;s de nombreuses ann&eacute;es de pratique du droit social au sein du barreau de Paris, dans des cabinets d&rsquo;affaires fran&ccedil;ais et anglo-saxons de premier plan, puis au sein d&rsquo;un groupe international du secteur de la restauration, Ma&icirc;tre Nathalie Brackmann a acquis une solide exp&eacute;rience du **conseil aux entreprises**.
 
 Cette exp&eacute;rience couvre aussi bien la gestion courante des ressources humaines que des projets plus sensibles ou de plus grande envergure.
 
-Du fait de son parcours international (dipl&ocirc;me de traducteur de l'ISIT, LL.M. de l'Universit&eacute; d'Essex, licence de droit &agrave; l'Universit&eacute; Complutense de Madrid), Nathalie Brackmann pratique couramment l&rsquo;**anglais** et l&rsquo;**espagnol**.
+Du fait de son parcours international (dipl&ocirc;me de traducteur de l'ISIT, LL.M. de l'Universit&eacute; d'Essex, licence de droit &agrave; l'Universit&eacute; Complutense de Madrid), Ma&icirc;tre Nathalie Brackmann pratique couramment l&rsquo;**anglais** et l&rsquo;**espagnol**.
 
 Le Cabinet est ainsi en mesure de conseiller et d&rsquo;assister les soci&eacute;t&eacute;s &eacute;trang&egrave;res pr&eacute;sentes en France, les filiales fran&ccedil;aises de groupes internationaux ainsi que les particuliers &eacute;trangers d&eacute;sirant &eacute;changer dans une de ces deux langues.

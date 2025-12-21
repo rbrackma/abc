@@ -4,7 +4,7 @@ title: "Honoraires"
 date: 2014-05-30T11:40:45-04:00
 modified:
 excerpt:
-tags: [Avocat a Valbonne au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
+tags: [Avocat a Sophia Antipolis au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
 image:
   feature: honoraires-400x250.webp
   backgroundcolor: white

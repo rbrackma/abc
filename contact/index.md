@@ -2,7 +2,7 @@
 layout: tab
 title: "Contact"
 date: 2018-01-18T09:44:20-04:00
-tags: [Avocat a Valbonne au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
+tags: [Avocat a Sophia Antipolis au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
 excerpt:
 image:
   feature: brackmann-contact-1920x850.webp
