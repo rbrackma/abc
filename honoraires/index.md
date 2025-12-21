@@ -19,6 +19,6 @@ Le Cabinet vous informe de ses honoraires avant toute intervention, qu'il s'agis
 - d'une proc&eacute;dure judiciaire.
 
 Les prestations du cabinet sont factur&eacute;es en fonction du temps pass&eacute;.
-Pour les proc&eacute;dures judiciaires, une facturation forfaitaire est appliqu&eacute;e et compl&eacute;t&eacute;e selon la nature de l'affaire par un honoraire de r&eacute;sulat.
+Pour les proc&eacute;dures judiciaires, une facturation forfaitaire est appliqu&eacute;e et compl&eacute;t&eacute;e selon la nature de l'affaire par un honoraire de r&eacute;sultat.
 
 Par ailleurs, le d&eacute;tail de ces honoraires sera obligatoirement consign&eacute; par &eacute;crit, sous forme de convention d'honoraires, pour toute proc&eacute;dure confi&eacute;e ou abonnement conclu avec le Cabinet.
