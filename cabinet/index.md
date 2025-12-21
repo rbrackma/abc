@@ -15,7 +15,7 @@ share: false
 
 {% include toc.html %}
 
-Situ&eacute; &agrave; Sophia Antipolis, le Cabinet a pour activit&eacute; dominante le droit social incluant le **droit du travail** et le droit de la **s&eacute;curit&eacute; sociale**.
+Situ&eacute; &agrave; **Sophia Antipolis**, le Cabinet a pour activit&eacute; dominante le droit social incluant le **droit du travail** et le droit de la **s&eacute;curit&eacute; sociale**.
 
 Le Cabinet conseille, assiste ou repr&eacute;sente les **entreprises** et les **particuliers** devant les juridictions de **premi&egrave;re instance** et d&rsquo;**appel** sur tout le **territoire national**.
 
