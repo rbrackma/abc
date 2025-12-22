@@ -9,9 +9,14 @@ image:
 share: false
 toc: true
 ---
+**Médiateur de la consommation de la profession d’avocat :**
 
-<br>
-<h1>Mentions l&eacute;gales</h1>
+```
+Mme Carole PASCAREL
+Adresse : 180 boulevard Haussmann, 75008 Paris
+Adresse électronique : mediateur-conso@mediateur-consommation-avocat.fr
+Site Internet : https://mediateur-consommation-avocat.fr
+```
 
 **Responsable de la publication :**
 

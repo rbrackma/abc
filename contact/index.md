@@ -19,8 +19,6 @@ N'h&eacute;sitez pas &agrave; nous appeler (**<a href="tel:+33763501488">07 63 5
 - vous renseigner sur les honoraires du Cabinet,
 - toute autre question pratique sur le Cabinet.
 
-Vous serez recontact&eacute; dans la journ&eacute;e.
-
 **Coordonn&eacute;es du Cabinet** (r&eacute;ception sur rendez-vous) :
 <style>
 
