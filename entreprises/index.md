@@ -1,32 +1,30 @@
 ---
-layout: tab
-title: "Intervention du Cabinet aupr&egrave;s des entreprises"
-date: 2018-01-18T09:44:20-04:00
-tags: [Avocat a Sophia Antipolis au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
-excerpt:
-image:
-  feature: brackmann-entreprises-1920x850.webp
-  backgroundcolor: white
-  teaser:
-  thumb:
-share: false
-ads: false
+layout: default
+lang: fr
+ref: companies
+permalink: /entreprises/
+title: "Entreprises"
+eyebrow: "Clientèle"
+hero_image: /assets/images/brackmann-entreprises-1920x1080.jpg
+description: "Intervention du Cabinet auprès des entreprises : audit social, rédaction de documents, négociation, représentation en justice."
 ---
 
-<p>De par ses exp&eacute;riences acquises au sein de grands groupes et cabinets d'affaires, Nathalie Brackmann a conscience des exigences du conseil aux entreprises et de l'importance d'&eacute;tablir une <strong>relation de confiance</strong> avec ses diff&eacute;rents interlocuteurs.</p>
-<p>Le Cabinet offre ainsi un <strong>conseil sur mesure</strong>, adapt&eacute; &agrave; la qualit&eacute; de ses interlocuteurs (Directeur g&eacute;n&eacute;ral, Directeur administratif et financier, Directeur des ressources humaines, Directeur des relations sociales, etc.), &agrave; leur secteur d'activit&eacute; (nouvelles technologies, finance, hotellerie, restauration, blanchisserie, service &agrave; la personne, etc.) et &agrave; la dimension de leur entreprise (TPE, PME ou soci&eacute;t&eacute;s appartenant &agrave; de plus grands groupes).</p>
-<p>Le Cabinet est notamment amen&eacute; &agrave; intervenir dans les situations suivantes:</p>
-<p>Afin de pr&eacute;server vos int&eacute;r&ecirc;ts, vous souhaitez :</p>
-<ul>
-<li>r&eacute;aliser un <strong>audit social</strong> en vue d&rsquo;une prochaine op&eacute;ration d&rsquo;acquisition ou en vue de mettre en conformit&eacute; votre entreprise avec la l&eacute;gislation sociale existante,</li>
-<li>&ecirc;tre assist&eacute; dans la <strong>r&eacute;daction de documents</strong> de port&eacute;e juridique tels que contrats de travail, avertissements, lettres de licenciement, protocoles transactionnels, notes d&rsquo;information &agrave; destination de vos institutions repr&eacute;sentatives du personnel, r&egrave;glement int&eacute;rieur, accords,</li>
-<li>&ecirc;tre conseill&eacute; sur la <strong>proc&eacute;dure applicable</strong> &agrave; une situation en cours ou &agrave; venir,</li>
-<li>n&eacute;gocier un <strong>protocole transactionnel</strong> en amont ou au cours d&rsquo;une proc&eacute;dure prud&rsquo;homale,</li>
-<li>&ecirc;tre assist&eacute; dans le cadre de vos <strong>&eacute;changes avec l'inspection du travail, le m&eacute;decin du travail ou l'URSSAF</strong>.</li>
-</ul>
-<p>Afin de d&eacute;fendre vos int&eacute;r&ecirc;ts, vous souhaitez :</p>
-<ul>
-<li>&ecirc;tre assist&eacute; ou repr&eacute;sent&eacute; dans le cadre d&rsquo;une proc&eacute;dure devant le Conseil de prud'hommes, les diff&eacute;rentes Commissions de recours amiable, le Tribunal judiciaire,</li>
-<li>&eacute;tudier l'opportunit&eacute; d'intenter une action en justice ou d'interjeter appel d'une d&eacute;cision qui vous est d&eacute;favorable,</li>
-<li>&ecirc;tre assist&eacute; ou repr&eacute;sent&eacute; dans le cadre d'une proc&eacute;dure d'appel.</li>
-</ul>
+De par ses expériences acquises au sein de grands groupes et cabinets d'affaires, Nathalie Brackmann a conscience des exigences du conseil aux entreprises et de l'importance d'établir une **relation de confiance** avec ses différents interlocuteurs.
+
+Le Cabinet offre ainsi un **conseil sur mesure**, adapté à la qualité de ses interlocuteurs (Directeur général, Directeur administratif et financier, Directeur des ressources humaines, Directeur des relations sociales, etc.), à leur secteur d'activité (nouvelles technologies, finance, hôtellerie, restauration, blanchisserie, service à la personne, etc.) et à la dimension de leur entreprise (TPE, PME ou sociétés appartenant à de plus grands groupes).
+
+Le Cabinet est notamment amené à intervenir dans les situations suivantes :
+
+Afin de préserver vos intérêts, vous souhaitez :
+
+- réaliser un **audit social** en vue d'une prochaine opération d'acquisition ou en vue de mettre en conformité votre entreprise avec la législation sociale existante,
+- être assisté dans la **rédaction de documents** de portée juridique tels que contrats de travail, avertissements, lettres de licenciement, protocoles transactionnels, notes d'information à destination de vos institutions représentatives du personnel, règlement intérieur, accords,
+- être conseillé sur la **procédure applicable** à une situation en cours ou à venir,
+- négocier un **protocole transactionnel** en amont ou au cours d'une procédure prud'homale,
+- être assisté dans le cadre de vos **échanges avec l'inspection du travail, le médecin du travail ou l'URSSAF**.
+
+Afin de défendre vos intérêts, vous souhaitez :
+
+- être assisté ou représenté dans le cadre d'une procédure devant le Conseil de prud'hommes, les différentes Commissions de recours amiable, le Tribunal judiciaire,
+- étudier l'opportunité d'intenter une action en justice ou d'interjeter appel d'une décision qui vous est défavorable,
+- être assisté ou représenté dans le cadre d'une procédure d'appel.

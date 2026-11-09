@@ -1,0 +1,22 @@
+{% case include.code %}
+{% when 'fr' %}
+<svg class="flag-icon" viewBox="0 0 3 2" width="20" height="14" aria-hidden="true" focusable="false">
+  <rect width="1" height="2" x="0" fill="#0055A4"/>
+  <rect width="1" height="2" x="1" fill="#FFFFFF"/>
+  <rect width="1" height="2" x="2" fill="#EF4135"/>
+</svg>
+{% when 'en' %}
+<svg class="flag-icon" viewBox="0 0 60 30" width="20" height="14" aria-hidden="true" focusable="false">
+  <clipPath id="flag-en-clip"><path d="M30,15 h30v15zv15h-30zh-30v-15zv-15h30z"/></clipPath>
+  <path d="M0,0 v30 h60 v-30z" fill="#00247d"/>
+  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/>
+  <path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#flag-en-clip)" stroke="#cf142b" stroke-width="4"/>
+  <path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/>
+  <path d="M30,0 v30 M0,15 h60" stroke="#cf142b" stroke-width="6"/>
+</svg>
+{% when 'es' %}
+<svg class="flag-icon" viewBox="0 0 3 2" width="20" height="14" aria-hidden="true" focusable="false">
+  <rect width="3" height="2" fill="#AA151B"/>
+  <rect width="3" height="1" y="0.5" fill="#F1BF00"/>
+</svg>
+{% endcase %}

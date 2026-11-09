@@ -1,30 +1,41 @@
-<header id="masthead">
-  <div class="inner-wrap">
-<!--    <link rel="shortcut icon" type="image/png" href="{{ site.url }}/images/favicon.webp"> -->
-  <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcUlEQVQ4jaWRy0uUARTFf9985mN8MuNYUko+AzHRCiU3ghVa1CbCwkIx0PoLhLK0RfaCpEULsUWLMCE16WUppZYIRptGU/HR+MjUYXyMozOOr++2iDJRF9VZ3nM593B/iogI/yGPrYyZkRF8AgNZWVxkZniYHfHxiKZh7e4GBYyRUegNBpTNGoimUXkmi4Ss01iam1E9PUkrLMQxPs7bkhK8gwJxTk6S9+LV+gYri25sAwO47XZmR0aw9fVi/z5KTm0dOlVFbwxmdWWZ2MyjdFZXoyjKWsCY+TONxVfx9vdnyeViV0oK/Y2NJGWfRaeqAFjet6BTVcxVj9mXk4uiqiAioq2uysPjx8TS2irOqUmpOHJIehsa5P7BFHFMjMsv1Rbky9f3LWKufiKNJcUiIuIBsLSwwLzNhjEqkvbycmIzMglLTia96AruWQedNTUsOZ1MdJgZCg9jqK2NjNIbAGtPbLlzm67nz9iZmEjmzVt4+wcA8OjUSWIyMhhsbiY4dg/hqamE7k0gIDR0fQCAiKAoyjoib4ou8+1jO4boaE6U3cNTr1/nb45R4HeOCIsuF156/R/DLQLmbTY+lN1Fp6pkXi/dsLzhkKb9xDhntWLr68NcVQk6HX4hIYx1mNGWV3DPOTBFxzA1NIgxIoIpiwWA2dFRZoaHUQaamqSn/iV6g4GF6Rlsfb3szzvPpwcV+JpMBIWFM95hZntcHNt8/Vh2OUHA7ZglpeAiapqP17X0S0V8qXvK4eJinFPT6IODMeyO4EBuHtaeLpKyz2EfG8PPZELTVlG9vPExGDFGRkLP63qpuZAv/U3v5F+0KYW/0Q+OnV5b813IBgAAAABJRU5ErkJggg==" rel="shortcut icon" type="image/x-icon" />
+{% assign t = site.data.i18n[page.lang] %}
+{% assign home_url = site.data.translations.home[page.lang] %}
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ home_url | relative_url }}">
+      <span>
+        <span class="brand__name">Nathalie Brackmann</span>
+        <span class="brand__title">{{ t.role_title | escape }}</span>
+      </span>
+    </a>
 
-  <img src="{{ site.url }}/images/phone-sign-100x100.webp" alt="phone" style="width:20px;height:20px;">
-	<a href="tel:+33763501488">07 63 50 14 88</a>
-  
-  </a>
- 	<img src="{{ site.url }}/images/map-location-marker-100x100.webp" alt="google maps" style="width:20px;height:20px;">
-	<a href="https://maps.app.goo.gl/EhXJ4xkZVwAknYo79">Plan</a>
-  
-  </a>
-  <!--
-  <a href="http://en.brackmann.fr" style="text-decoration:none">
-    <img src="{{ site.url }}/images/255x128-english.webp" alt="english version" style="width:30px;height:20px;">
-  </a>
-  
-  <a href="http://es.brackmann.fr" style="text-decoration:none">
-    <img src="{{ site.url }}/images/200x133-spanish.webp" alt="spanish version" style="width:30px;height:20px;">
-  </a>
-  -->
-  </div><!-- /.inner-wrap -->
+    <nav class="main-nav" id="main-nav" aria-label="Main">
+      {% for key in site.data.nav %}
+        {% assign entry = site.data.translations[key] %}
+        {% assign url = entry[page.lang] %}
+        <a class="main-nav__link{% if page.ref == key %} is-active{% endif %}" href="{{ url | relative_url }}">
+          {{ t.nav[key] }}
+        </a>
+      {% endfor %}
 
-  <div class="inner-wrap">
-    <nav role="navigation" class="menu top-menu">
-        {% include navigation.html %}
+      <div class="lang-switch" aria-label="Language">
+        {% for lang in site.languages %}
+          {% assign lang_url = site.data.translations[page.ref][lang.code] %}
+          <a href="{{ lang_url | relative_url }}" class="lang-switch__link{% if page.lang == lang.code %} is-active{% endif %}" hreflang="{{ lang.code }}" aria-label="{{ lang.name }}" title="{{ lang.name }}">
+            {% include flag.html code=lang.code %}
+          </a>
+        {% endfor %}
+      </div>
+
+      <a class="btn btn--primary main-nav__cta" href="tel:{{ site.owner.phone }}">{% include icon-phone.html %}{{ t.call_cta }}</a>
     </nav>
-  </div><!-- /.inner-wrap -->
-</header><!-- /.masthead -->
+
+    <div class="header-actions">
+      <a class="btn btn--outline header-actions__call" href="tel:{{ site.owner.phone }}">{% include icon-phone.html %}{{ t.call_cta }}</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span class="visually-hidden">Menu</span>
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</header>
