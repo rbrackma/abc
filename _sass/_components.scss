@@ -1,0 +1,375 @@
+@use "variables" as *;
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.75em 1.4em;
+  font-weight: 600;
+  font-size: 0.92rem;
+  white-space: nowrap;
+  text-decoration: none;
+  border-radius: $radius;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn--primary {
+  background: $color-accent;
+  color: $color-ink;
+
+  &:hover {
+    background: $color-accent-dark;
+    color: $color-white;
+  }
+}
+
+.btn--ghost {
+  border-color: rgba($color-white, 0.5);
+  color: $color-white;
+
+  &:hover {
+    background: rgba($color-white, 0.1);
+    border-color: $color-white;
+    color: $color-white;
+  }
+}
+
+.btn--outline {
+  border-color: $color-accent-dark;
+  color: $color-ink;
+
+  &:hover {
+    background: $color-ink;
+    border-color: $color-ink;
+    color: $color-white;
+  }
+}
+
+.btn--soft {
+  background: rgba($color-ink, 0.06);
+  color: $color-ink-soft;
+  font-size: 0.85rem;
+  padding: 0.6em 1.1em;
+
+  &:hover {
+    background: $color-ink;
+    color: $color-white;
+  }
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+
+.hero .btn-row {
+  margin-top: 1.6rem;
+}
+
+/* ---------- Language switcher ---------- */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-switch__link {
+  display: inline-flex;
+  padding: 2px;
+  line-height: 0;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  opacity: 0.6;
+  transition: opacity 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &.is-active {
+    opacity: 1;
+    border-color: $color-accent;
+  }
+}
+
+.flag-icon {
+  display: block;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba($color-ink, 0.12);
+}
+
+/* ---------- Cards ---------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+
+  @media (max-width: $bp-md) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (max-width: $bp-md) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.price-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1em;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.6em 0;
+    border-bottom: 1px solid $color-line;
+  }
+
+  strong {
+    white-space: nowrap;
+    color: $color-ink;
+  }
+}
+
+.card {
+  background: $color-white;
+  border: 1px solid $color-line;
+  padding: 1.75rem;
+  border-radius: $radius;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card h3 { margin-bottom: 0.5em; }
+
+.card p { color: $color-ink-soft; flex-grow: 1; }
+
+.card .btn { margin-top: 1rem; align-self: flex-start; }
+
+/* ---------- Firm / about layout ---------- */
+.about-grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 3rem;
+  align-items: start;
+
+  @media (max-width: $bp-md) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-grid__portrait img {
+  border-radius: $radius;
+}
+
+.about-grid__portrait figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: $color-ink-soft;
+}
+
+/* ---------- Language badges ---------- */
+.lang-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.lang-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35em 0.9em;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid $color-accent-dark;
+  color: $color-accent-dark;
+  border-radius: 999px;
+}
+
+/* ---------- Contact / address block ---------- */
+.contact-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+
+  @media (max-width: $bp-md) {
+    grid-template-columns: 1fr;
+  }
+}
+
+address {
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.icon-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.icon-row svg {
+  flex-shrink: 0;
+  margin-top: 0.2em;
+  color: $color-accent-dark;
+}
+
+.map-embed {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  border: 1px solid $color-line;
+  border-radius: $radius;
+}
+
+.map-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0;
+}
+
+.map-embed__link {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  background: $color-white;
+  color: $color-ink;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5em 0.9em;
+  border-radius: $radius;
+  box-shadow: 0 1px 4px rgba($color-ink, 0.25);
+
+  &:hover {
+    color: $color-accent-dark;
+  }
+}
+
+/* ---------- Breadcrumb-free page intro ---------- */
+.page-intro {
+  max-width: $measure;
+  font-size: 1.05rem;
+  color: $color-ink-soft;
+}
+
+/* ---------- Booking / rendez-vous card ---------- */
+.booking-card {
+  background: $color-white;
+  border: 1px solid $color-line;
+  border-radius: $radius;
+  max-width: 760px;
+}
+
+.booking-card__profile {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 1.25rem;
+  padding: 1.75rem;
+  border-bottom: 1px solid $color-line;
+}
+
+.booking-card__avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.booking-card__profile-info {
+  flex-grow: 1;
+}
+
+.booking-card__profile-info h3 {
+  margin-bottom: 0.15em;
+}
+
+.booking-card__profile-info p {
+  margin: 0;
+  color: $color-ink-soft;
+  font-size: 0.9rem;
+}
+
+.booking-card__profile-link {
+  flex-shrink: 0;
+}
+
+.booking-card__options {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.75rem;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $color-line;
+  }
+
+  @media (max-width: $bp-sm) {
+    flex-wrap: wrap;
+  }
+}
+
+.booking-option__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  flex: 1;
+  min-width: 180px;
+}
+
+.booking-option__label {
+  font-weight: 600;
+}
+
+.booking-option__duration {
+  font-size: 0.85rem;
+  color: $color-ink-soft;
+}
+
+.booking-option__price {
+  font-weight: 600;
+  white-space: nowrap;
+
+  small {
+    font-weight: 500;
+    color: $color-ink-soft;
+    font-size: 0.72em;
+  }
+}
+
+.booking-option__cta {
+  flex-shrink: 0;
+}
+
+.booking-card__footnote {
+  margin-top: 1rem;
+  font-size: 0.82rem;
+  color: $color-ink-soft;
+  max-width: 760px;
+}

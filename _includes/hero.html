@@ -1,0 +1,38 @@
+<section class="hero{% if page.hero_short %} hero--short{% endif %}">
+  {% if page.hero_image %}
+  <div class="hero__media">
+    <img src="{{ page.hero_image | relative_url }}" alt="" loading="eager">
+  </div>
+  <div class="hero__scrim"></div>
+  {% endif %}
+  <div class="wrap hero__content">
+    {% if page.hero_languages %}
+    {% assign t = site.data.i18n[page.lang] %}
+    <div class="hero__langs">
+      <p class="section__kicker">{{ t.languages_spoken_label }}</p>
+      <div class="lang-badges">
+        <span class="lang-badge">Français</span>
+        <span class="lang-badge">English</span>
+        <span class="lang-badge">Español</span>
+      </div>
+    </div>
+    {% endif %}
+    {% if page.eyebrow %}<p class="hero__eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    {% if page.eyebrow_2 %}<p class="hero__eyebrow">{{ page.eyebrow_2 }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.lede %}<p class="hero__lede">{{ page.lede }}</p>{% endif %}
+    {% if page.hero_actions %}
+    <div class="btn-row">
+      {% for action in page.hero_actions %}
+        {% assign first_char = action.url | slice: 0 %}
+        {% if first_char == "#" or action.url contains "tel:" or action.url contains "mailto:" or action.url contains "http" %}
+          {% assign href = action.url %}
+        {% else %}
+          {% assign href = action.url | relative_url %}
+        {% endif %}
+        <a class="btn {{ action.class | default: 'btn--ghost' }}" href="{{ href }}">{% if action.icon == "phone" %}{% include icon-phone.html %}{% endif %}{{ action.label }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>

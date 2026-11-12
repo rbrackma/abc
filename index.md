@@ -1,66 +1,90 @@
 ---
 layout: home
-tags: [Avocat a Sophia Antipolis au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
+lang: fr
+ref: home
 permalink: /
-image: 
-  feature: brackmann-homepage-1920x350d.webp
+title: "Nathalie Brackmann"
+hero_languages: true
+eyebrow: "Avocate au barreau de Grasse"
+eyebrow_2: "Médiatrice agréée auprès de la Cour d'appel d'Aix-en-Provence"
+lede: "Droit du travail et Médiation à Sophia Antipolis, Côte d'Azur."
+hero_image: /assets/images/brackmann-homepage-1920x1080.jpg
+hero_actions:
+  - label: "Nous contacter"
+    url: /contact/
+    class: "btn--primary"
+  - label: "Prendre rendez-vous"
+    url: "#rendez-vous"
+  - label: "Envisager une médiation"
+    url: /mediation/
+description: "Cabinet de Nathalie Brackmann, avocate au barreau de Grasse à Sophia Antipolis, spécialisée en droit social : droit du travail et de la sécurité sociale."
 ---
 
-<meta name="keywords" content="{{ site.tags | join: ', ' }}">
+<section class="section">
+  <div class="wrap about-grid">
+    <figure class="about-grid__portrait">
+      <img src="/assets/images/brackmann-portait-50kb.jpg" alt="Nathalie Brackmann, avocate">
+      <figcaption>Me Nathalie Brackmann</figcaption>
+    </figure>
+    <div>
+      <div class="page-intro">
+        <p>Situé à <strong>Sophia Antipolis</strong>, le Cabinet a pour activité dominante le droit social incluant le <strong>droit du travail</strong> et le droit de la <strong>sécurité sociale</strong>.</p>
+        <p>Le Cabinet conseille, assiste ou représente les <strong>entreprises</strong> et les <strong>particuliers</strong> devant les juridictions de première instance et d'appel, sur tout le territoire national. Il intervient en particulier devant les Conseils de prud'hommes de <strong>Grasse</strong>, de <strong>Cannes</strong> ou de <strong>Nice</strong>, le Tribunal judiciaire de Grasse ou de Nice, et la Cour d'appel d'<strong>Aix-en-Provence</strong>.</p>
+        <p>Maître Nathalie Brackmann a une solide expérience du <strong>conseil aux entreprises</strong>, du fait de sa pratique du droit social au sein du barreau de Paris dans des cabinets d'affaires français et anglo-saxons de premier plan, puis au sein d'un groupe international du secteur de la restauration. Cette expérience couvre aussi bien la gestion courante des ressources humaines que des projets plus sensibles ou de plus grande envergure.</p>
+      </div>
 
-<style>
+      <p class="section__kicker" style="margin-top:2rem;">Langues parlées</p>
+      <div class="lang-badges">
+        <span class="lang-badge">Français</span>
+        <span class="lang-badge">English</span>
+        <span class="lang-badge">Español</span>
+      </div>
+      <p class="prose">Du fait de son parcours international (diplôme de traducteur de l'ISIT, LL.M. de l'Université d'Essex, licence de droit à l'Université Complutense de Madrid), Maître Nathalie Brackmann pratique couramment l'<strong>anglais</strong> et l'<strong>espagnol</strong>.</p>
+      <p class="prose">Le Cabinet est ainsi en mesure de conseiller et d'assister les sociétés étrangères présentes en France, les filiales françaises de groupes internationaux, ainsi que les particuliers étrangers désirant échanger dans une de ces deux langues.</p>
+    </div>
+  </div>
+</section>
 
-.google-maps {
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="section__kicker">Domaines d'intervention</p>
+      <h2>Comment le Cabinet peut vous accompagner</h2>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Activité dominante</h3>
+        <p>Embauche, modification du contrat, procédures disciplinaires, licenciements, ruptures conventionnelles, accords collectifs, harcèlement, discrimination...</p>
+        <a class="btn btn--outline" href="/activite-dominante/">En savoir plus</a>
+      </div>
+      <div class="card">
+        <h3>Entreprises</h3>
+        <p>Audit social, rédaction de documents juridiques, procédure applicable, négociation de protocoles transactionnels, représentation devant les juridictions.</p>
+        <a class="btn btn--outline" href="/entreprises/">En savoir plus</a>
+      </div>
+      <div class="card">
+        <h3>Particuliers</h3>
+        <p>Conseil sur votre contrat de travail, sa requalification, son exécution, sa rupture, et assistance ou représentation en cas de litige avec votre employeur.</p>
+        <a class="btn btn--outline" href="/particuliers/">En savoir plus</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-        position: relative;
+<section class="section">
+  <div class="wrap contact-block">
+    <div>
+      <p class="section__kicker">Contact</p>
+      <h2>Me Nathalie Brackmann</h2>
+      <address>
+        Villa 11 - Villantipolis<br>
+        473 route des Dolines<br>
+        06560 Valbonne<br><br>
+        Tél. : <a href="tel:+33763501488">07 63 50 14 88</a>
+      </address>
+    </div>
+    {% include map.html %}
+  </div>
+</section>
 
-        padding-bottom: 75%; // This is the aspect ratio
-
-        height: 0;
-
-        overflow: hidden;
-
-    }
-
-.google-maps iframe {
-
-        position: absolute;
-
-        top: 0;
-
-        left: 0;
-
-        width: 100% !important;
-
-        height: 100% !important;
-
-    }
-
-</style>
-
-
-
-
-<p>Situ&eacute; &agrave; <strong>Sophia Antipolis</strong>, le Cabinet a pour activit&eacute; dominante le droit social incluant le <strong>droit du travail</strong> et le droit de la <strong>s&eacute;curit&eacute; sociale</strong>.</p>
-<p>Le Cabinet conseille, assiste ou repr&eacute;sente les <strong>entreprises</strong> et les <strong>particuliers</strong> devant les juridictions de <strong>premi&egrave;re instance</strong> et d&rsquo;<strong>appel, </strong>sur tout le<strong> territoire national</strong>.</p>
-<p>En particulier, Ma&icirc;tre Nathalie Brackmann a une solide exp&eacute;rience du<strong> conseil aux entreprises </strong>en raison de sa pratique du droit social durant de nombreuses ann&eacute;es au sein du barreau de Paris, dans des cabinets d&rsquo;affaires de premier plan.</p>
-<p>Sa pratique courante de l'<strong>anglais</strong> et l'<strong>espagnol</strong> lui permet d'offrir un service privil&eacute;gi&eacute; aux soci&eacute;t&eacute;s &eacute;trang&egrave;res pr&eacute;sentes en France, aux filiales fran&ccedil;aises de groupes internationaux ainsi qu'aux particuliers &eacute;trangers d&eacute;sirant &eacute;changer dans une de ces deux langues.</p>
-
-
-<div class="tile">
-      	<div class="span4">
-    		<address>
-    		<br>
-          <strong>Me Nathalie Brackmann</strong><br>
-          Villa 11 - Villantipolis<br>
-    			473 route des Dolines<br>
-    			06560 VALBONNE<br>
-			    T&eacute;l. : <a href="tel:+33763501488">07 63 50 14 88</a><br>
-    		</address>
-                <div class="google-maps">
-		  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d722.0584687577635!2d7.037069269613161!3d43.62249099819396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDM3JzIxLjAiTiA3wrAwMicxNS44IkU!5e0!3m2!1sfr!2sfr!4v1766269836926!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-    	        </div>
-    	</div>
-
-</div><!-- /.tiles -->
-
+{% include booking.html %}

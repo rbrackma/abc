@@ -1,68 +1,39 @@
 ---
-layout: tab
+layout: page-wide
+lang: fr
+ref: contact
+permalink: /contact/
 title: "Contact"
-date: 2018-01-18T09:44:20-04:00
-tags: [Avocat a Sophia Antipolis au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social PACA Cote d'Azur Lawyer]
-excerpt:
-image:
-  feature: brackmann-contact-1920x850.webp
-  backgroundcolor: white
-  teaser: 
-  thumb:
-share: false
-ads: false
+eyebrow: "Nous contacter"
+hero_image: /assets/images/brackmann-contact-1920x1080.jpg
+hero_short: true
+description: "Contactez le Cabinet de Nathalie Brackmann, avocate à Sophia Antipolis, pour convenir d'un rendez-vous ou toute question sur les honoraires."
 ---
 
-N'h&eacute;sitez pas &agrave; nous appeler (**<a href="tel:+33763501488">07 63 50 14 88</a>**) pour :
+<div class="content">
+<div class="wrap">
+<div class="contact-block">
+  <div>
+    <p class="prose">N'hésitez pas à nous appeler (<strong><a href="tel:+33763501488">07 63 50 14 88</a></strong>) pour :</p>
+    <ul>
+      <li>convenir d'un rendez-vous,</li>
+      <li>vous renseigner sur les honoraires du Cabinet,</li>
+      <li>toute autre question pratique sur le Cabinet.</li>
+    </ul>
 
-- convenir d'un rendez-vous,
-- vous renseigner sur les honoraires du Cabinet,
-- toute autre question pratique sur le Cabinet.
-
-**Coordonn&eacute;es du Cabinet** (r&eacute;ception sur rendez-vous) :
-<style>
-
-.google-maps {
-
-        position: relative;
-
-        padding-bottom: 75%; // This is the aspect ratio
-
-        height: 0;
-
-        overflow: hidden;
-
-    }
-
-.google-maps iframe {
-
-        position: absolute;
-
-        top: 0;
-
-        left: 0;
-
-        width: 100% !important;
-
-        height: 100% !important;
-
-    }
-
-</style>
-
-<div class="tile">
-      	<div>
-    		<address>
-          <strong>Me Nathalie Brackmann</strong><br>
-    			Villa 11 - Villantipolis<br>
-          473 route des Dolines<br>
-    			06560 VALBONNE<br>
-			    T&eacute;l. : <a href="tel:+33763501488">07 63 50 14 88</a><br>
-    		</address>
-                <div class="google-maps">
-		  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d722.0584687577635!2d7.037069269613161!3d43.62249099819396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDM3JzIxLjAiTiA3wrAwMicxNS44IkU!5e0!3m2!1sfr!2sfr!4v1766269836926!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-    	</div>
-
-	Le Cabinet est situ&eacute; &agrave; Sophia Antipolis.<br><br>
+    <h3 style="margin-top: 3rem;">Coordonnées du Cabinet</h3>
+    <p class="prose" style="margin-bottom: 1.5rem;">(Réception sur rendez-vous)</p>
+    <address>
+      Me Nathalie Brackmann<br>
+      Villa 11 - Villantipolis<br>
+      473 route des Dolines<br>
+      06560 Valbonne<br><br>
+      Tél. : <a href="tel:+33763501488">07 63 50 14 88</a><br>
+      <a href="mailto:contact@brackmann.fr">contact@brackmann.fr</a>
+    </address>
+    <p class="prose" style="margin-top: 1.5rem;">Le Cabinet est situé à Sophia Antipolis.</p>
+  </div>
+  {% include map.html %}
+</div>
+</div>
 </div>

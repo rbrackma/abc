@@ -1,0 +1,41 @@
+# Maps a page's `ref` to its URL in every language.
+# Used to build the language switcher and the main navigation.
+# `nav` controls whether the entry shows in the main nav, and in what order.
+home:
+  nav: 1
+  fr: /
+  en: /en/
+  es: /es/
+practice-areas:
+  nav: 3
+  fr: /activite-dominante/
+  en: /en/practice-areas/
+  es: /es/areas-de-practica/
+companies:
+  nav: 4
+  fr: /entreprises/
+  en: /en/companies/
+  es: /es/empresas/
+individuals:
+  nav: 5
+  fr: /particuliers/
+  en: /en/individuals/
+  es: /es/particulares/
+fees:
+  nav: 6
+  fr: /honoraires/
+  en: /en/fees/
+  es: /es/honorarios/
+contact:
+  nav: 7
+  fr: /contact/
+  en: /en/contact/
+  es: /es/contacto/
+mediation:
+  fr: /mediation/
+  en: /en/mediation/
+  es: /es/mediacion/
+legal:
+  fr: /mentions-legales/
+  en: /en/legal-notice/
+  es: /es/aviso-legal/

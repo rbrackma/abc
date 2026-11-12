@@ -1,0 +1,38 @@
+{% assign t = site.data.i18n[page.lang] %}
+<section class="section section--alt" id="rendez-vous">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="section__kicker">{{ t.booking.kicker }}</p>
+      <h2>{{ t.booking.title }}</h2>
+      <p class="page-intro">{{ t.booking.intro_prefix }} <a href="https://consultation.avocat.fr" target="_blank" rel="noopener">consultation.avocat.fr</a>{{ t.booking.intro_suffix }}</p>
+    </div>
+
+    <div class="booking-card">
+      <div class="booking-card__profile">
+        <img src="/assets/images/brackmann-portait-50kb.jpg" alt="Nathalie Brackmann" class="booking-card__avatar">
+        <div class="booking-card__profile-info">
+          <h3>Me Nathalie Brackmann</h3>
+          <p>{{ t.booking.bar_info }}</p>
+        </div>
+        <a class="btn btn--soft booking-card__profile-link" href="https://consultation.avocat.fr/avocat-valbonne/nathalie-brackmann-39440.html" target="_blank" rel="noopener">{{ t.booking.profile_button }}</a>
+      </div>
+
+      <div class="booking-card__options">
+        {% for option in site.data.booking.options %}
+          {% assign label_key = "option_" | append: option.key %}
+          {% assign cta_key = "cta_" | append: option.key %}
+          <div class="booking-option">
+            <div class="booking-option__info">
+              <span class="booking-option__label">{{ t.booking[label_key] }}</span>
+              <span class="booking-option__duration">{{ t.booking.duration_label }} : {{ option.duration }} {{ t.booking.duration_unit }}</span>
+            </div>
+            <span class="booking-option__price">{{ option.price }} &euro; <small>{{ t.booking.price_suffix }}</small></span>
+            <a class="btn btn--primary booking-option__cta" href="{{ option.link }}" target="_blank" rel="noopener">{{ t.booking[cta_key] }}</a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <p class="booking-card__footnote">{{ t.booking.footnote_prefix }} <a href="https://consultation.avocat.fr" target="_blank" rel="noopener">consultation.avocat.fr</a>{{ t.booking.footnote_suffix }}</p>
+  </div>
+</section>
