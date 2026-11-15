@@ -31,14 +31,10 @@ description: "Nathalie Brackmann, abogada colegiada en Grasse, en Sophia Antipol
 
 <section class="section">
   <div class="wrap about-grid">
-    <div class="about-grid__aside">
-      <figure class="about-grid__portrait">
-        <img src="/assets/images/brackmann-portait-50kb.jpg" alt="Nathalie Brackmann, abogada">
-        <figcaption>Me Nathalie Brackmann</figcaption>
-      </figure>
-      <p class="section__kicker">Idiomas</p>
-      {% include lang-badges.html %}
-    </div>
+    <figure class="about-grid__portrait">
+      <img src="/assets/images/brackmann-portait-50kb.jpg" alt="Nathalie Brackmann, abogada">
+      <figcaption>Me Nathalie Brackmann</figcaption>
+    </figure>
     <div>
       <div class="page-intro">
         <p>Situado en <strong>Sophia Antipolis</strong>, el Despacho tiene como actividad principal el derecho laboral, incluyendo el <strong>derecho del trabajo</strong> y el derecho de la <strong>seguridad social</strong>.</p>

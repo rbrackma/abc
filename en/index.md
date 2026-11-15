@@ -31,14 +31,10 @@ description: "Nathalie Brackmann, attorney at the Grasse Bar in Sophia Antipolis
 
 <section class="section">
   <div class="wrap about-grid">
-    <div class="about-grid__aside">
-      <figure class="about-grid__portrait">
-        <img src="/assets/images/brackmann-portait-50kb.jpg" alt="Nathalie Brackmann, attorney at law">
-        <figcaption>Me Nathalie Brackmann</figcaption>
-      </figure>
-      <p class="section__kicker">Languages spoken</p>
-      {% include lang-badges.html %}
-    </div>
+    <figure class="about-grid__portrait">
+      <img src="/assets/images/brackmann-portait-50kb.jpg" alt="Nathalie Brackmann, attorney at law">
+      <figcaption>Me Nathalie Brackmann</figcaption>
+    </figure>
     <div>
       <div class="page-intro">
         <p>Located in <strong>Sophia Antipolis</strong>, the firm's main practice area is labour and employment law, including <strong>employment law</strong> and <strong>social security law</strong>.</p>

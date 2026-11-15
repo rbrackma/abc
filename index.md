@@ -31,14 +31,10 @@ description: "Cabinet de Nathalie Brackmann, avocate au barreau de Grasse à Sop
 
 <section class="section">
   <div class="wrap about-grid">
-    <div class="about-grid__aside">
-      <figure class="about-grid__portrait">
-        <img src="/assets/images/brackmann-portait-50kb.jpg" alt="Nathalie Brackmann, avocate">
-        <figcaption>Me Nathalie Brackmann</figcaption>
-      </figure>
-      <p class="section__kicker">Langues parlées</p>
-      {% include lang-badges.html %}
-    </div>
+    <figure class="about-grid__portrait">
+      <img src="/assets/images/brackmann-portait-50kb.jpg" alt="Nathalie Brackmann, avocate">
+      <figcaption>Me Nathalie Brackmann</figcaption>
+    </figure>
     <div>
       <div class="page-intro">
         <p>Situé à <strong>Sophia Antipolis</strong>, le Cabinet a pour activité dominante le droit social incluant le <strong>droit du travail</strong> et le droit de la <strong>sécurité sociale</strong>.</p>

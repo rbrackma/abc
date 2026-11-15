@@ -259,43 +259,6 @@
   color: $color-ink-soft;
 }
 
-.about-grid__aside {
-  .about-grid__portrait {
-    margin-bottom: 2rem;
-  }
-
-  .lang-badges {
-    margin-bottom: 0;
-  }
-}
-
-/* ---------- Language badges ---------- */
-.lang-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin: 0.5rem 0 1.5rem;
-}
-
-.lang-badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.35em 0.9em;
-  font-size: 0.85rem;
-  font-weight: 600;
-  border: 1px solid $color-accent-dark;
-  color: $color-accent-dark;
-  border-radius: 999px;
-  text-decoration: none;
-  transition: background-color 0.15s ease, color 0.15s ease;
-}
-
-a.lang-badge:hover,
-a.lang-badge:focus-visible {
-  background: $color-accent-dark;
-  color: #fff;
-}
-
 /* ---------- Contact / address block ---------- */
 .contact-block {
   display: grid;
