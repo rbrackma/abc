@@ -17,7 +17,7 @@ description: "La actividad principal del Despacho es el derecho laboral: relacio
     <p class="section__kicker">Principales áreas de intervención del Despacho</p>
   </div>
 
-  <div class="card-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 3rem;">
+  <div class="card-grid card-grid--2" style="margin-bottom: 3rem;">
     <ul style="list-style: none; padding: 0; margin: 0;">
       <li>— Contratación (trabajo temporal, contratos de duración determinada e indefinida, contratos de aprendizaje, etc.)</li>
       <li>— Modificación del contrato de trabajo</li>
@@ -45,7 +45,7 @@ description: "La actividad principal del Despacho es el derecho laboral: relacio
   <div class="section__head">
     <p class="section__kicker">El Despacho interviene habitualmente</p>
   </div>
-  <div class="card-grid" style="grid-template-columns: repeat(2, 1fr);">
+  <div class="card-grid card-grid--2">
     <div class="card">
       <h3>Ante las empresas</h3>
       <p>Auditoría social, redacción de documentos de alcance jurídico, negociación de acuerdos transaccionales, representación ante los tribunales...</p>

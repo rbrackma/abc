@@ -17,7 +17,7 @@ description: "Le Cabinet a pour activité dominante le droit social : relations 
     <p class="section__kicker">Les principaux domaines d'intervention du Cabinet</p>
   </div>
 
-  <div class="card-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 3rem;">
+  <div class="card-grid card-grid--2" style="margin-bottom: 3rem;">
     <ul style="list-style: none; padding: 0; margin: 0;">
       <li>— Embauche (intérim, CDD, CDI, contrats d'apprentissage, etc.)</li>
       <li>— Modification du contrat de travail</li>
@@ -45,7 +45,7 @@ description: "Le Cabinet a pour activité dominante le droit social : relations 
   <div class="section__head">
     <p class="section__kicker">Le Cabinet est amené à intervenir</p>
   </div>
-  <div class="card-grid" style="grid-template-columns: repeat(2, 1fr);">
+  <div class="card-grid card-grid--2">
     <div class="card">
       <h3>Auprès des entreprises</h3>
       <p>Audit social, rédaction de documents de portée juridique, négociation de protocoles transactionnels, représentation devant les juridictions...</p>
