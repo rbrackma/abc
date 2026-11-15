@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.languages[0].code }}">
+<head>
+{% include head.html %}
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ site.data.i18n[page.lang].skip_to_content }}</a>
+  {% include header.html %}
+  {% include hero.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>
