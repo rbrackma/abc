@@ -1,0 +1,50 @@
+<section class="hero{% if page.layout == "home" %} hero--home{% endif %}">
+  {% if page.hero_image %}
+  <div class="hero__media">
+    <img src="{{ page.hero_image | relative_url }}" alt="" loading="eager">
+  </div>
+  <div class="hero__scrim"></div>
+  {% endif %}
+  {% if page.hero_languages %}
+  {% assign t = site.data.i18n[page.lang] %}
+  {% capture hero_langs %}
+    <div class="hero__langs">
+      <p class="section__kicker">{{ page.hero_languages_label | default: t.languages_spoken_label }}</p>
+      {% include lang-flags.html %}
+    </div>
+  {% endcapture %}
+  {% endif %}
+  <div class="wrap hero__content">
+    <div class="hero__main">
+    {% if page.eyebrow_2 %}
+    <div class="hero__titles">
+      <p class="hero__eyebrow hero__eyebrow--lead">{{ page.eyebrow }}</p>
+      <p class="hero__eyebrow hero__eyebrow--lead hero__eyebrow--sub">{{ page.eyebrow_2 }}</p>
+    </div>
+    {% elsif page.eyebrow %}<p class="hero__eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    {% if page.hero_title %}
+    <h1 class="hero__title-stack"><span>{{ page.hero_title }}</span>{% if page.hero_title_sub %}<span class="hero__title-sub">{{ page.hero_title_sub }}</span>{% endif %}</h1>
+    {% else %}
+    <h1>{{ page.title }}</h1>
+    {% endif %}
+    {% if page.lede %}<p class="hero__lede">{{ page.lede }}</p>{% endif %}
+    {% if page.hero_actions %}
+    <div class="hero__actions">
+    <div class="btn-row">
+      {% for action in page.hero_actions %}
+        {% assign first_char = action.url | slice: 0 %}
+        {% if first_char == "#" or action.url contains "tel:" or action.url contains "mailto:" or action.url contains "http" %}
+          {% assign href = action.url %}
+        {% else %}
+          {% assign href = action.url | relative_url %}
+        {% endif %}
+        <a class="btn {{ action.class | default: 'btn--ghost' }}" href="{{ href }}">{% if action.icon %}{% assign icon_file = "icon-" | append: action.icon | append: ".html" %}{% include {{ icon_file }} %}{% endif %}<span class="btn__label">{{ action.label }}</span></a>
+      {% endfor %}
+    </div>
+    {% if page.hero_languages %}{{ hero_langs }}{% endif %}
+    </div>
+    {% endif %}
+    </div>
+    {% if page.hero_languages and page.hero_actions == nil %}{{ hero_langs }}{% endif %}
+  </div>
+</section>

@@ -1,51 +1,56 @@
-# Site wide configuration
-
-title: www.brackmann.fr
-description: "Sophia Antipolis - Avocat au barreau de Grasse"
-logo: nb-logo-400x250.webp
-locale: fr_FR
-url: //www.brackmann.fr
-#url: //rbrackma.github.io/abc
-#url: //10.64.109.18:4000
-
-# meta data
-tag : Avocat a Cannes au barreau de Grasse Antibes Valbonne Mougins Biot Vallauris Sophia Antipolis Nice Cannes Nathalie Brackmann droit travail droit social droit famille PACA Cote d'Azur Lawyer
-
-# Jekyll configuration
-
-sass:
-  sass_dir: _sass
-  style: compressed
-permalink: /:categories/:title/
-kramdown:
-  toc_levels: 1..2
-highlighter: rouge
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
-
-# Google services
-google_analytics: UA-151907051-1
-
-# Default extensions
-post_ext: md
-page_ext: md
-
-# Found in _templates/
-post_layout: article
-page_layout: article
-
-# Format titles with titlecase?
-titlecase: true
-
+# Site-wide configuration
+title: "Nathalie Brackmann — Avocate"
+tagline: "Avocate au barreau de Grasse — Droit social"
+url: "https://www.brackmann.fr"
+logo: "/assets/images/nb-logo-400x250.jpg"
 
 # Site owner
 owner:
-  name: Nathalie Brackmann
-  web: http://www.brackmann.fr
-  email: contact@brackmann.fr
-  avatar: brackmann-133x145.webp
-  disqus-shortname:
+  name: "Nathalie Brackmann"
+  email: "contact@brackmann.fr"
+  phone: "+33763501488"
+  phone_display: "07 63 50 14 88"
+  address_line1: "Villa 11 - Villantipolis"
+  address_line2: "473 route des Dolines"
+  address_line3: "06560 Valbonne, France"
+  maps_embed: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3000!2d7.037069269613161!3d43.62249099819396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDM3JzIxLjAiTiA3wrAwMicxNS44IkU!5e0!3m2!1sfr!2sfr!4v1766269836926!5m2!1sfr!2sfr"
+  maps_url: "https://www.google.com/maps/search/?api=1&query=43.62249099819396,7.037069269613161"
 
+# Languages available on the site. The first one is the default (served
+# without a URL prefix). Add/remove a language by editing this list and
+# _data/i18n.yml, then adding the matching content folder.
+languages:
+  - code: fr
+    name: "Français"
+    default: true
+  - code: en
+    name: "English"
+  - code: es
+    name: "Español"
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+title_separator: "—"
+description: "Avocate au barreau de Grasse, droit social (droit du travail et de la sécurité sociale), à Sophia Antipolis."
+
+# Google Analytics 4 measurement id (leave blank to disable). The old
+# Universal Analytics property (UA-151907051-1) used by the previous site
+# was shut down by Google in 2024 and will not record any data.
+google_analytics: ""
+
+# Jekyll configuration
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - "*.gemspec"

@@ -1,0 +1,10 @@
+<div class="lang-flags">
+  {% for lang in site.languages %}
+  {% assign lang_url = site.data.translations[page.ref][lang.code] %}
+  {% case lang.code %}{% when 'fr' %}{% assign lang_hint = "Version française" %}{% when 'en' %}{% assign lang_hint = "English version" %}{% when 'es' %}{% assign lang_hint = "Versión en español" %}{% else %}{% assign lang_hint = lang.name %}{% endcase %}
+  <a class="lang-flag{% if page.lang == lang.code %} is-active{% endif %}" href="{{ lang_url | relative_url }}" hreflang="{{ lang.code }}" lang="{{ lang.code }}" aria-label="{{ lang_hint }}" title="{{ lang_hint }}"{% if page.lang == lang.code %} aria-current="true"{% endif %}>
+    {% include flag.html code=lang.code %}
+    <span class="lang-flag__code" aria-hidden="true">{{ lang.code | upcase }}</span>
+  </a>
+  {% endfor %}
+</div>

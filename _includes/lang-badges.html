@@ -1,0 +1,6 @@
+<div class="lang-badges">
+  {% for lang in site.languages %}
+  {% assign lang_url = site.data.translations[page.ref][lang.code] %}
+  <a class="lang-badge" href="{{ lang_url | relative_url }}" hreflang="{{ lang.code }}" lang="{{ lang.code }}">{{ lang.name }}</a>
+  {% endfor %}
+</div>

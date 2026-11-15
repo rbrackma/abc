@@ -1,0 +1,17 @@
+# Online booking options, via Consultation.avocat.fr (Nathalie Brackmann's
+# listing: https://consultation.avocat.fr/avocat-valbonne/nathalie-brackmann-39440.html)
+# Durations and prices are the same across languages; only labels are
+# translated, via the `booking` keys in _data/i18n.yml.
+options:
+  - key: cabinet
+    duration: 45
+    price: 180
+    link: "https://consultation.avocat.fr/consultation-cabinet/forms.php?source=profile&targetid=39440"
+  - key: video
+    duration: 30
+    price: 120
+    link: "https://consultation.avocat.fr/consultation-video/forms.php?source=profile&targetid=39440"
+  - key: phone
+    duration: 15
+    price: 60
+    link: "https://consultation.avocat.fr/consultation-telephonique/forms.php?source=profile&targetid=39440"
