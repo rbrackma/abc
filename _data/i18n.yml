@@ -1,5 +1,6 @@
 fr:
   role_title: "Avocate & Médiatrice"
+  home_title: "Avocate droit du travail & Médiatrice"
   nav:
     home: "Cabinet"
     practice-areas: "Activité dominante"
@@ -41,6 +42,7 @@ fr:
     footnote_suffix: ", le service de consultation en ligne du Conseil National des Barreaux (« CNB »)."
 en:
   role_title: "Attorney & Mediator"
+  home_title: "Employment Lawyer & Mediator"
   nav:
     home: "The Firm"
     practice-areas: "Practice Areas"
@@ -82,6 +84,7 @@ en:
     footnote_suffix: ", the online consultation service of the National Council of Bars (\"CNB\")."
 es:
   role_title: "Abogada y Mediadora"
+  home_title: "Abogada laboralista y Mediadora"
   nav:
     home: "El Despacho"
     practice-areas: "Áreas de Práctica"
