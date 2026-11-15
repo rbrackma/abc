@@ -17,7 +17,7 @@ description: "The firm's main practice area is labour and employment law: indivi
     <p class="section__kicker">The firm's main areas of practice</p>
   </div>
 
-  <div class="card-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 3rem;">
+  <div class="card-grid card-grid--2" style="margin-bottom: 3rem;">
     <ul style="list-style: none; padding: 0; margin: 0;">
       <li>— Hiring (temporary work, fixed-term and permanent contracts, apprenticeship contracts, etc.)</li>
       <li>— Changes to the employment contract</li>
@@ -45,7 +45,7 @@ description: "The firm's main practice area is labour and employment law: indivi
   <div class="section__head">
     <p class="section__kicker">The firm is regularly called upon to act</p>
   </div>
-  <div class="card-grid" style="grid-template-columns: repeat(2, 1fr);">
+  <div class="card-grid card-grid--2">
     <div class="card">
       <h3>For companies</h3>
       <p>Social audits, drafting of documents with legal implications, negotiation of settlement agreements, representation before the courts...</p>

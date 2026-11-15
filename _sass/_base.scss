@@ -56,6 +56,15 @@ ul, ol {
 
 li { margin-bottom: 0.4em; }
 
+/* Justified body text on every page (not the banner, headings, lists or
+   footer). Automatic hyphenation (driven by the page's lang attribute)
+   keeps the word spacing even, especially on narrow phone screens. */
+main p {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
