@@ -57,12 +57,22 @@ ul, ol {
 li { margin-bottom: 0.4em; }
 
 /* Justified body text on every page (not the banner, headings, lists or
-   footer). Automatic hyphenation (driven by the page's lang attribute)
-   keeps the word spacing even, especially on narrow phone screens. */
+   footer). Wide columns justify well without cutting words, so there is
+   no hyphenation on desktop/tablet. On phones, where columns are narrow,
+   only long words may be hyphenated (10+ letters, at least 4 on each
+   side), so short words and names such as "Nathalie" or "Brackmann" are
+   never split. "text-wrap: pretty" balances the line breaks. */
 main p {
   text-align: justify;
-  -webkit-hyphens: auto;
-  hyphens: auto;
+  -webkit-hyphens: manual;
+  hyphens: manual;
+  text-wrap: pretty;
+
+  @media (max-width: $bp-sm) {
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    hyphenate-limit-chars: 10 4 4;
+  }
 }
 
 .visually-hidden {
